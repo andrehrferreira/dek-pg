@@ -1,0 +1,35 @@
+{
+    "name": "@dekproject/pg",
+    "version": "1.2.1",
+    "description": "PostgreSQL interface plugin for DEK",
+    "main": "./build/index.js",
+    "scripts": {
+        "test": "mocha",
+        "dev": "npm run build && babel-node sample --presets env",
+        "build": "babel src -s -D -d build --presets env"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dekproject/pg.git"
+    },
+    "keywords": [
+        "dek",
+        "mongodb"
+    ],
+    "author": "Andre Ferreira <andre@vigiadepreco.com.br>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dekproject/pg/issues"
+    },
+    "homepage": "https://github.com/dekproject/pg#readme",
+    "dependencies": {
+        "pg": "^7.18.1"
+    },
+    "devDependencies": {
+        "@dekproject/scope": "^1.1.4",
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "dotenv": "^6.2.0",
+        "mocha": "^6.0.1"
+    }
+}
