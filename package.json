@@ -1,6 +1,6 @@
 {
     "name": "@dekproject/pg",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "PostgreSQL interface plugin for DEK",
     "main": "./build/index.js",
     "scripts": {
@@ -14,7 +14,8 @@
     },
     "keywords": [
         "dek",
-        "mongodb"
+        "postgre",
+        "postgresql"
     ],
     "author": "Andre Ferreira <andre@vigiadepreco.com.br>",
     "license": "MIT",
